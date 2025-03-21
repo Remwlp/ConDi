@@ -14,4 +14,6 @@ Processed data will be uploaded as soon as it is organized.
 
 
 ## Usage
+```
 python3 main.py --name mmsd --model MIDL --text_name text_json_clean --weight_decay 0.08 --train_batch_size 128 --dev_batch_size 128 --learning_rate 6e-4 --num_train_epochs 20 --layers 3 --max_grad_norm 5 --dropout_rate 0.1 --optimizer_name adam --text_size 512 --image_size 768 --warmup_proportion 0.2 --device 0
+```
